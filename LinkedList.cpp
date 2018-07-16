@@ -12,7 +12,7 @@ struct Node *head;
 void Insert(int x)
 {
   Node *Temp = new Node();
-  Temp->data = 2;
+  Temp->data = x;
   Temp->next = NULL;
   head = Temp;
 }
