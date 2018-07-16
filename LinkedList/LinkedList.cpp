@@ -16,7 +16,17 @@ void Insert(int x)
   Temp->next = NULL;
   head = Temp;
 }
-
+void print()
+{
+  Node *temp = head;
+  cout << "List is: " << endl;
+  while (temp!=NULL)
+  {
+	cout << temp->data;
+	temp = temp->next;
+  }
+  cout << "\n" << endl;
+}
 
 //Driver Program
 int main()
@@ -24,12 +34,14 @@ int main()
   head = NULL;
   int x;
   int n;
-  cout << "Enter The Number" << endl;
+  cout << "How Many Number You want to Enter" << endl;
   cin >> n;
+  cout << "Enter The List
   for(int i=0; i<n; i++)
   {
 	cin >> x;
 	Insert(x);
+	print();
   }
   return 0;
 }
