@@ -9,7 +9,7 @@ struct Node {
 
 struct Node *head;
 
-void Insert(int data, int n);
+void Insert(int data, int n)
 {
   Node *temp = new Node();
   temp-> data = data;
@@ -21,10 +21,17 @@ void Insert(int data, int n);
 	head = temp;
 	return;
   }
+}
 
-void print();
-
-
+void print()
+{
+  struct Node *temp = head;
+  while(temp!=NULL)
+  {
+	cout << temp->data;
+	temp = temp->next;
+  }
+}
 
 
 int main()
@@ -34,4 +41,5 @@ int main()
   Insert(3,2);
   Insert(4,3);
   Insert(5,4);
-
+  print();
+}
