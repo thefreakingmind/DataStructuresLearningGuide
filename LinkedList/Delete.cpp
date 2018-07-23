@@ -8,7 +8,6 @@ struct Node {
 };
 
 struct Node *head;
-
 void Insert(int x)
 {
   struct Node *temp = new Node;
@@ -56,6 +55,7 @@ int main()
 	cout << "After Deleting" << endl;
 	Delete(2);
 	Print();
+	return 0;
 }
 
 	
