@@ -1,4 +1,4 @@
-# Data Structure and Competitive in C++.
+# Data Structure and Competitive Programming in C++.
 
 This is a Learning for Major Data Structures and Implementation the Code in C++.
 I will Be Coding All The Major Data Structures and Will Be Uploading on Github.
