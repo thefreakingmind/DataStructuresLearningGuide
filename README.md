@@ -1,10 +1,12 @@
 # Data Structure and Competitive Programming in C++.
 
-This is a Learning for Major Data Structures and Implementation the Code in C++.
-I will Be Coding All The Major Data Structures and Will Be Uploading on Github.
-Better Solution are highly Welcome. Just Open a Pull Request and I will be reviewing the code 
-and if it is better, I will add in Solutions. This will help me and more people to learn from each other.
+**- Implemented Various Data Structures Like:**
+1) LinkedList
+2) Stacks
+3) Trees
+4) Arrays
 
-Kindly do Share your code. I Want to Learn more.
-Thank You very Much
-Peace out
+**- Many More to Come and Updated**
+
+**-Competive Programming Solution Data Structure Specific**
+
