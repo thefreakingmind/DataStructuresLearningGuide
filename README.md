@@ -5,6 +5,7 @@
 2) Stacks
 3) Trees
 4) Arrays
+5) Queue
 
 **- Many More to Come and Updated**
 
