@@ -1,3 +1,4 @@
+#Node for The LinkedLists
 class Node:
     def __init__(self, value, link=None):
         self.value = value
@@ -14,6 +15,7 @@ class Node:
     def update_values(self,link):
         self.link = link
 
+#Our LinkedList Class
 class LinkedList:
     def __init__(self, value=None):
         self.head_node = Node(value)
