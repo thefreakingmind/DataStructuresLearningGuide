@@ -14,6 +14,10 @@ class Node:
     def update_values(self,link):
         self.link = link
 
+class LinkedList:
+    def __init__(self, value=None):
+        self.head_node = Node(value)
 
-my_node = Node(20)
-print(my_node)
+    def head_node(self):
+        return self.head_node
+
