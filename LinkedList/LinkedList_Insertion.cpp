@@ -21,6 +21,13 @@ void Insert(int data, int n)
 	head = temp;
 	return;
   }
+  for(int i=0; i<n-2; i++)
+  {
+	struct Node *temp2 = head;
+	temp2 = temp2->next;
+  }
+  temp->next = temp2->next;
+  temp->next = temp;
 }
 
 void print()
@@ -38,8 +45,11 @@ int main()
 {
   head = NULL; //Empty List
   Insert(2,1);
+  print();
   Insert(3,2);
+  print();
   Insert(4,3);
+  print();
   Insert(5,4);
   print();
 }

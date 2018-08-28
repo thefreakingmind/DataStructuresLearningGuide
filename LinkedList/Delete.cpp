@@ -23,7 +23,7 @@ void Delete(int x)
   {
 	head = temp1->next;
 	delete temp1;
-	return ;
+	return;
   }
   for(int i=0; i<x-1; i++)
   {
