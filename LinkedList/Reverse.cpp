@@ -8,7 +8,7 @@ struct Node{
 };
 
 struct Node *head;
-
+//Reversing the LinkedList
 void Reverse()
 {
   struct Node *current, *prev, *next;
