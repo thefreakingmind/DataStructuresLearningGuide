@@ -22,13 +22,20 @@ struct Node *Newnode(int data)
   node->right = NULL;
   return(node);
 }
-
+void Inorder(struct Node *node)
+{
+  if(node==NULL)return;
+  cout << node->data;
+  Inorder(node->left);
+  Inorder(node->right);
+}
 int main()
 {
   struct Node *root = Newnode(1);
   root->left = Newnode(3);
   root->right = Newnode(4);
   root->left->left = Newnode(5);
+  Inorder(root);
   return 0;
 }
 
