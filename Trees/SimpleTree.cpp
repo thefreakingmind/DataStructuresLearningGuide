@@ -29,13 +29,24 @@ void Inorder(struct Node *node)
   Inorder(node->left);
   Inorder(node->right);
 }
+
+void PostOrder(struct Node *node)
+{
+  if(node==NULL)return;
+  PostOrder(node->left);
+  cout << node->data;
+  PostOrder(node->right);
+}
 int main()
 {
   struct Node *root = Newnode(1);
   root->left = Newnode(3);
   root->right = Newnode(4);
   root->left->left = Newnode(5);
+  cout << "In Order" << endl;
   Inorder(root);
+  cout << "Post Order" << endl;
+  PostOrder(root);
   return 0;
 }
 
