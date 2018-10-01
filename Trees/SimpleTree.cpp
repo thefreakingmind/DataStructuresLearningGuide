@@ -1,5 +1,5 @@
 //Coding is Love. Marry it
-
+//Implemented Preorder, Postorder, Inorder
 
 #include <iostream>
 
